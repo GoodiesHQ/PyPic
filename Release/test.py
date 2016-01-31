@@ -6,4 +6,4 @@ with pypic as pp:
 		ext = ext if ext in pp.extensions else "unknown"
 	else:
 		ext = "unknown"
-	print(pp.getrgb("car1.jpg", pp.extensions[ext]))
+	print(pp.getrgb(filename, pp.extensions[ext]))
